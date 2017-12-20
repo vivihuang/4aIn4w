@@ -1,0 +1,12 @@
+Description: 'Static Web Site'
+
+Parameters:
+  BucketName:
+    Type: String
+    Description: "Bucket Name"
+
+Resources:
+  StaticWebBuckets:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: !Ref BucketName

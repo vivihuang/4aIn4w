@@ -1,0 +1,5 @@
+[week1]
+localhost
+
+[week1:vars]
+bucket_name=static.stupid-aws.be
